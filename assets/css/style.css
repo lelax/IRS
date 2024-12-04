@@ -610,7 +610,7 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #ed5b5b;
+  color: #f26722;
 }
 
 .why-us .box h4 {
@@ -639,6 +639,7 @@ section {
 .why-us .box:hover p {
   color: #fff;
 }
+
 
 /*--------------------------------------------------------------
 # Clients
@@ -783,6 +784,12 @@ section {
 .cta .cta-btn:hover {
   background: #f26722;
   border: 2px solid #f26722;
+}
+
+@media (min-width: 1024px) {
+  #cta {
+    background-attachment: fixed;
+  }
 }
 
 /*--------------------------------------------------------------
